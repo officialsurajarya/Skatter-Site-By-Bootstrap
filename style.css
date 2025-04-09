@@ -49,13 +49,13 @@
 /* -----------------Home---------------- */
 
 .home {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://github.com/officialsurajarya/SoftFlew/blob/main/img/home.png);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://github.com/officialsurajarya/SoftFlew/blob/main/img/home.png?raw=true);
     height: 80vh !important;
     color: white;
 }
 
 .home2 {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://github.com/officialsurajarya/SoftFlew/blob/main/img/home2.png);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://github.com/officialsurajarya/SoftFlew/blob/main/img/home2.png?raw=true);
 }
 
 .home-content {
