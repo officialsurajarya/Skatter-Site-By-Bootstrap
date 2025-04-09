@@ -5,45 +5,14 @@
     font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.header {
-    height: 80px;
-    width: 100%;
+/* nav */
+
+.nav {
     background: #222;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-
-.logo h4 {
-    color: #ff8b00;
-    font-weight: 900;
-    font-size: 20px;
-}
-
-.option ul {
-    display: flex;
-    margin: 0;
-}
-
-.option li {
-    list-style: none;
-    padding-left: 30px;
-}
-
-.option a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    transition: 0.3s;
-}
-
-
-.option a:hover {
-    color: #ff8b00;
+.nav a {
+    color: white !important;
 }
 
 /* -----------------Home---------------- */
@@ -56,6 +25,8 @@
 
 .home2 {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./Assets/home2.png);
+    height: 80vh !important;
+    color: white;
 }
 
 .home-content {
@@ -109,4 +80,43 @@
 .card-container h3 {
     color: white;
     margin: 10px 0;
+}
+
+
+.services2 {
+    background-color: #222;
+}
+
+.services2 h3 {
+    color: #ff8b00;
+    font-family: "Oswald", sans-serif !important;
+}
+
+.services2 p {
+    color: #999;
+    line-height: 30px;
+}
+
+.services2 li {
+    color: #999;
+    list-style: none;
+    margin-left: -30px;
+}
+
+.fa-check {
+    color: #ff8b00;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:550) {
+    .home2,
+    .home {
+        height: 20vh;
+    }
 }
