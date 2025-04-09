@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    background: #222;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo h4 {
+    color: #ff8b00;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.option ul {
+    display: flex;
+    margin: 0;
+}
+
+.option li {
+    list-style: none;
+    padding-left: 30px;
+}
+
+.option a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+
+.option a:hover {
+    color: #ff8b00;
+}
+
+/* -----------------Home---------------- */
+
+.home {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/home.png);
+    height: 80vh !important;
+    color: white;
+}
+
+.home2 {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/home2.png);
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.home h1 {
+    font-size: 5rem;
+    font-family: "Oswald", sans-serif !important;
+}
+
+.home p {
+    font-size: 1rem;
+}
+
+
+/*----------- services-------------- */
+
+.services {
+    background-color: #222;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.services h2 {
+    color: #ff8b00;
+}
+
+.card-container {
+    text-align: start;    
+}
+
+.card-container p,
+.services-top-content {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.services-top-content {
+    margin-bottom: 70px;
+}
+
+.card-container i {
+    color: #ff8b00;
+    font-size: 50px;
+}
+
+.card-container h3 {
+    color: white;
+    margin: 10px 0;
+}
