@@ -64,6 +64,8 @@
     background-size: cover;
   }
 
+  
+
   .carousel-content {
     display: flex;
     flex-direction: column;
@@ -143,3 +145,28 @@
     }
   }
 
+@media only screen and (min-width: 1400px) {
+    .carousel-content {
+        padding: 0 400px  !important;
+    }
+
+  .carousel-content h1 {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif !important;
+  }
+  .carousel-content p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1400px) {
+    .carousel-content {
+        padding: 0 300px  !important;
+    }
+
+    .carousel-content h1 {
+        font-size: 50px;
+        font-family: "Oswald", sans-serif !important;
+    }
+}
