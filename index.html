@@ -16,49 +16,36 @@
 
   <!--------------------Header---------------------->
 
-  <nav class="navbar navbar-expand-lg my-navbar">
+  <header class="container-fluid shadow-lg">
     <div class="container">
-      <a class="navbar-brand" href="#">Skater</a>
-      <button class="navbar-toggler button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fa-solid fa-bars"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu-items">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              About
-
-            </a> 
-            <ul class="dropdown-menu about-submenu">
-              <li><a class="dropdown-item" href="#">Team</a></li>
-              <li><a class="dropdown-item" href="#">Pricing</a></li>
-              <li><a class="dropdown-item" href="#">FAQ</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Testimonial</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
+      <nav class="navbar navbar-expand-lg">
+        <a href="#home" class="navbar-brand">SKATTER</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#home" class="nav-link active-home">Home</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+            <li class="nav-item dropdown">
+              <a href="#about" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+              <ul class="dropdown-menu about-submenu about-dropdown">
+                <li><a href="#team" class="dropdown-item nav-link">Team</a></li>
+                <li><a href="#team" class="dropdown-item nav-link">Pricing</a></li>
+                <li><a href="#team" class="dropdown-item nav-link">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+            <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
     </div>
-  </nav>
+    </div>
+  </header>
+ 
+  <!-- -----------------Main---------------- -->
   <main>
-
-    <!-- -----------------Home---------------- -->
-
     <section class="container-fluid home g-0" id="home">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <!-- Indicators -->
@@ -68,7 +55,7 @@
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
             aria-label="Slide 2"></button>
         </div>
-    
+
         <!-- Slides -->
         <div class="carousel-inner">
 
@@ -77,35 +64,37 @@
             <div class="d-flex h-100 align-items-center justify-content-center">
               <div class="carousel-content px-5" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));">
                 <h1>Hi I'm John and I Skate a lot</h1>
-                <p class="px-md-5 px-sm-3 px-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi necessitatibus nemo provident eligendi facilis.</p>
+                <p class="px-md-5 px-sm-3 px-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+                  necessitatibus nemo provident eligendi facilis.</p>
                 <button class="btn btn-outline-light">Get in Touch</button>
               </div>
             </div>
           </div>
-    
+
           <!-- Slide 2 -->
-          <div class="carousel-item carousel-img2 active img-fluid">
+          <div class="carousel-item carousel-img2 img-fluid">
             <div class="d-flex h-100 align-items-center justify-content-center">
               <div class="carousel-content px-5" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));">
                 <h1>Hi I'm John and I Skate a lot</h1>
-                <p class="px-md-5 px-sm-3 px-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi necessitatibus nemo provident eligendi facilis.</p>
+                <p class="px-md-5 px-sm-3 px-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+                  necessitatibus nemo provident eligendi facilis.</p>
                 <button class="btn btn-outline-light">Get in Touch</button>
               </div>
             </div>
           </div>
-    
-        <!-- Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
     </section>
 
@@ -173,11 +162,14 @@
       <div class="container-fluid">
         <div class="container ">
           <div class="box-container pb-5 row justify-content-center align-items-center">
-            <div class="img col-lg-4 col-sm-11"><img class="img-fluid" src="./Assets/img1.png" alt=""></div>
-            <div class="content mx-5 col-lg-4 col-sm-11 mt-lg-0 mt-sm-3">
-              <h3 class="py-3">My Best Performance</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id dignissimos nemo minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
-              <p>Minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
+            <div class="img col-lg-4 col-sm-11"><img class="img-fluid" src="./Assets/img1.png" alt="Skatter tricks"></div>
+            <div class="content mx-5 col-lg-4 col-sm-11">
+              <h3 class="pt-3">My Best Performance 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id dignissimos nemo minus
+                perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere
+                officiis. Cum, esse, iusto?</p>
+              <p>Minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores
+                facere officiis. Cum, esse, iusto?</p>
               <ul class="pt-lg-3 pt-sm-0">
                 <li><i class="fa-solid fa-check me-3"></i>Hello</li>
                 <li><i class="fa-solid fa-check me-3"></i>How</li>
@@ -187,10 +179,13 @@
             </div>
           </div>
           <div class="box-container row justify-content-center align-items-center">
-            <div class="content mx-5 col-lg-4 col-sm-11 mt-lg-0 mt-sm-3">
-              <h3 class="py-3">My Best Performance</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id dignissimos nemo minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
-              <p>Minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
+            <div class="content mx-5 col-lg-4 col-sm-11 order-lg-0 order-1">
+              <h3 class="pt-3">My Best Performance</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id dignissimos nemo minus
+                perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere
+                officiis. Cum, esse, iusto?</p>
+              <p>Minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores
+                facere officiis. Cum, esse, iusto?</p>
               <ul class="pt-lg-3 pt-sm-0">
                 <li><i class="fa-solid fa-check me-3"></i>Hello</li>
                 <li><i class="fa-solid fa-check me-3"></i>How</li>
@@ -198,7 +193,8 @@
                 <li><i class="fa-solid fa-check me-3"></i>You</li>
               </ul>
             </div>
-            <div class="img col-lg-4 order-lg-1 order-0 col-sm-11"><img class="img-fluid" src="./Assets/img1.png" alt=""></div>
+            <div class="img col-lg-4 order-lg-1 order-0 col-sm-11"><img class="img-fluid" src="./Assets/img1.png"
+                alt=""></div>
           </div>
         </div>
       </div>
