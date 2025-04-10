@@ -105,10 +105,6 @@ header {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.services-top-content {
-    margin-bottom: 70px;
-}
-
 .card-container i {
     color: #ff8b00;
     font-size: 50px;
@@ -119,8 +115,8 @@ header {
     margin: 10px 0;
 }
 
-
-.services2 {
+.services2,
+.services3 {
     background-color: #222;
 }
 
@@ -144,12 +140,24 @@ header {
     color: #ff8b00;
 }
 
+.services3 video {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
 
-@media (max-width: 575px) {
+@media only screen and (max-width: 575px) {
     .carousel-item {
       height: 50vh;
       background-position: center;
     }
+/* 
+    .services3 video {
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+    } */
+
   }
 
 @media only screen and (min-width: 1400px) {
