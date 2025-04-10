@@ -7,45 +7,73 @@
 
 /* nav */
 
-.nav {
+.navbar {
     background: #222;
+    min-height: 80px;
 }
 
-.nav a {
-    color: white !important;
+.navbar a {
+    color: white;
+    margin-left: 20px;
+}
+
+.about-submenu {
+    background-color: #222;
+}
+
+.navbar a:hover {
+    color: #ff8b00 !important;
+}
+
+.navbar-brand {
+    color: #ff8b00 !important;
+}
+
+.nav-item .active {
+    color: #ff8b00 !important;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #ff8b00;
+}
+
+.navbar .button {
+    color: #ff8b00;
+} 
+
+
+.my-navbar .navbar-toggler {
+    color: white;
+    border:none;
 }
 
 /* -----------------Home---------------- */
 
-.home {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./Assets/home.png);
-    height: 80vh !important;
-    color: white;
+.carousel-img1 {
+    background: url('./Assets/home1.png');
 }
 
-.home2 {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./Assets/home2.png);
-    height: 80vh !important;
-    color: white;
+.carousel-img2 {
+    background: url('./Assets/home2.png');
+
 }
 
-.home-content {
+.carousel-item {
+    height: 80vh;
+    min-height: 400px;
+    background-size: cover;
+  }
+
+  .carousel-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    width: 100%;
     height: 100%;
-}
-
-.home h1 {
-    font-size: 5rem;
-    font-family: "Oswald", sans-serif !important;
-}
-
-.home p {
-    font-size: 1rem;
-}
-
+  }
 
 /*----------- services-------------- */
 
@@ -108,15 +136,10 @@
 }
 
 
-
-
-
-
-
-
-@media screen and (max-width:550) {
-    .home2,
-    .home {
-        height: 20vh;
+@media (max-width: 575px) {
+    .carousel-item {
+      height: 20vh;
+      background-position: center;
     }
-}
+  }
+

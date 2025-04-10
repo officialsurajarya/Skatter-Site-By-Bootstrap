@@ -16,35 +16,34 @@
 
   <!--------------------Header---------------------->
 
-  <nav class=" navbar navbar-expand-lg nav">
+  <nav class="navbar navbar-expand-lg my-navbar">
     <div class="container">
-      <a class="navbar-brand" href="#">SKATTER</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      <a class="navbar-brand" href="#">Skater</a>
+      <button class="navbar-toggler button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span><i class="fa-solid fa-bars"></i></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent ">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu-items">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Services</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               About
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Team</a>
-              <a class="dropdown-item" href="#">Prising</a>
-              <a class="dropdown-item" href="#">FAQ</a>
-            </div>
+
+            </a> 
+            <ul class="dropdown-menu about-submenu">
+              <li><a class="dropdown-item" href="#">Team</a></li>
+              <li><a class="dropdown-item" href="#">Pricing</a></li>
+              <li><a class="dropdown-item" href="#">FAQ</a></li>
+            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Testionamials</a>
+            <a class="nav-link" href="#">Testimonial</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Blog</a>
@@ -56,43 +55,46 @@
       </div>
     </div>
   </nav>
-
-
-
   <main>
 
     <!-- -----------------Home---------------- -->
 
-    <section class="container-fluid g-0" id="home">
+    <section class="container-fluid home g-0" id="home">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators -->
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
             aria-label="Slide 2"></button>
         </div>
+    
+        <!-- Slides -->
         <div class="carousel-inner">
 
-          <div class="carousel-item home active">
-            <div class="container home-content col-lg-5 text-center">
-              <h1>Hi I'm John and I Skate a lot</h1>
-              <p class="pb-3 pt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi necessitatibus nemo
-                provident eligendi facilis </p>
-              <button class="btn btn-outline-light">Get in Touch</button>
+          <!-- Slide 1 -->
+          <div class="carousel-item carousel-img1 active img-fluid">
+            <div class="d-flex h-100 align-items-center justify-content-center">
+              <div class="carousel-content px-5" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));">
+                <h1>Hi I'm John and I Skate a lot</h1>
+                <p class="px-md-5 px-sm-3 px-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi necessitatibus nemo provident eligendi facilis.</p>
+                <button class="btn btn-outline-light">Get in Touch</button>
+              </div>
             </div>
           </div>
-
-          <div class="carousel-item home active">
-            <div class="container home-content col-lg-5 text-center">
-              <h1>Hi I'm John and I Skate a lot</h1>
-              <p class="pb-3 pt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi necessitatibus nemo
-                provident eligendi facilis </p>
-              <button class="btn btn-outline-light">Get in Touch</button>
+    
+          <!-- Slide 2 -->
+          <div class="carousel-item carousel-img2 active img-fluid">
+            <div class="d-flex h-100 align-items-center justify-content-center">
+              <div class="carousel-content px-5" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));">
+                <h1>Hi I'm John and I Skate a lot</h1>
+                <p class="px-md-5 px-sm-3 px-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi necessitatibus nemo provident eligendi facilis.</p>
+                <button class="btn btn-outline-light">Get in Touch</button>
+              </div>
             </div>
           </div>
-
-
-        </div>
+    
+        <!-- Controls -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -172,7 +174,7 @@
         <div class="container ">
           <div class="box-container pb-5 row justify-content-center align-items-center">
             <div class="img col-lg-4 col-sm-11"><img class="img-fluid" src="./Assets/img1.png" alt=""></div>
-            <div class="content mx-5 col-lg-4 col-sm-11">
+            <div class="content mx-5 col-lg-4 col-sm-11 mt-lg-0 mt-sm-3">
               <h3 class="py-3">My Best Performance</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id dignissimos nemo minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
               <p>Minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
@@ -185,7 +187,7 @@
             </div>
           </div>
           <div class="box-container row justify-content-center align-items-center">
-            <div class="content mx-5 order-lg-0 order-1 col-lg-4 col-sm-11">
+            <div class="content mx-5 col-lg-4 col-sm-11 mt-lg-0 mt-sm-3">
               <h3 class="py-3">My Best Performance</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id dignissimos nemo minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
               <p>Minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?</p>
