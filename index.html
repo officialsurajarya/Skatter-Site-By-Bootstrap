@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Skater</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet">
-
 </head>
 
 <body>
@@ -18,7 +18,7 @@
 
   <header class="container-fluid shadow-lg">
     <div class="container">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg" data-aos="fade-down">
         <a href="#home" class="navbar-brand">SKATTER</a>
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
@@ -46,7 +46,7 @@
  
   <!-- -----------------Main---------------- -->
   <main>
-    <section class="container-fluid home g-0" id="home">
+    <section class="container-fluid home g-0" id="home" data-aos="zoom-in-up">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <!-- Indicators -->
         <div class="carousel-indicators">
@@ -102,7 +102,7 @@
 
     <section class="services container-fluid" id="services">
       <div class="container py-5">
-        <div class="services-top-content mb-lg-5 mb-sm-4 row justify-content-center">
+        <div class="services-top-content mb-lg-5 mb-sm-4 row justify-content-center" data-aos="fade-up">
           <h2>SERVICES</h2>
           <p class="col-lg-6 col-sm-10 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde
             excepturi, non minima dolore
@@ -110,39 +110,37 @@
         </div>
         <div class="card-container">
           <div class="row g-lg-5 g-sm-3 ">
-            <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay>
               <i class="fa-solid fa-person-skating"></i>
               <h3>Skate for Beginner</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsum facere autem minima harum expedita
                 quit.</p>
             </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
               <i class="fa-brands fa-medium"></i>
               <h3>Personal Training</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsum facere autem minima harum expedita
                 quit.</p>
             </div>
-
-            <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="200">
               <i class="fa-brands fa-intercom"></i>
               <h3>Best Skater</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsum facere autem minima harum expedita
                 quit.</p>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay>
               <i class="fa-brands fa-playstation"></i>
               <h3>Advance Skater</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsum facere autem minima harum expedita
                 quit.</p>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
               <i class="fa-brands fa-wpressr"></i>
               <h3>Novice to Pro Skater</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsum facere autem minima harum expedita
                 quit.</p>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="200">
               <i class="fa-brands fa-vk"></i>
               <h3>Skate Boarding</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsum facere autem minima harum expedita
@@ -158,10 +156,10 @@
     <section class="services2 py-lg-5 py-3">
       <div class="container-fluid">
         <div class="container ">
-          <div class="box-container pb-5 row justify-content-center align-items-center">
-            <div class="img col-lg-4 col-sm-11"><img class="img-fluid" src="./Assets/img1.png" alt="Skatter tricks"></div>
-            <div class="content ps-lg-5 col-lg-4 col-sm-11">
-              <h3 class="pt-3">My Best Performance 1</h3>
+          <div class="box-container pb-lg-2 pb-5 row justify-content-center align-items-center">
+            <div class="img col-lg-5 col-sm-11" data-aos="fade-right"><img class="img-fluid" src="./Assets/img1.png" alt="Skatter tricks"></div>
+            <div class="content ps-lg-5 col-lg-5 col-sm-11" data-aos="fade-left">
+              <h3 class="pt-3">My Best Performance</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id dignissimos nemo minus
                 perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere
                 officiis. Cum, esse, iusto?</p>
@@ -176,8 +174,8 @@
             </div>
           </div>
           <div class="box-container row justify-content-center align-items-center">
-            <div class="content pe-5 col-lg-4 col-sm-11 order-lg-0 order-1">
-              <h3 class="pt-3">My Best Performance</h3>
+            <div class="content pe-5 col-lg-5 col-sm-11 order-lg-0 order-1" data-aos="fade-right">
+              <h3 class="pt-3">My Best Mentor</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id dignissimos nemo minus
                 perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit aspernatur distinctio, maiores facere
                 officiis. Cum, esse, iusto?</p>
@@ -190,7 +188,7 @@
                 <li><i class="fa-solid fa-check me-3"></i>You</li>
               </ul>
             </div>
-            <div class="img col-lg-4 order-lg-1 order-0 col-sm-11"><img class="img-fluid" src="./Assets/img1.png"
+            <div class="img col-lg-5 order-lg-1 order-0 col-sm-11" data-aos="fade-left"><img class="img-fluid" src="./Assets/img2.jpg"
                 alt=""></div>
           </div>
         </div>
@@ -199,15 +197,85 @@
 
     <section class="services3 py-lg-5 py-3">
       <div class="container-fluid">
-        <div class="container d-flex justify-content-center">
-          <video src="./Assets/officialsurajarya.mp4" poster="./Assets/home1.png" preload="metadata" controls></video>
+        <div class="container d-flex justify-content-center" data-aos="zoom-in-down">
+          <video src="./Assets/officialsurajarya.mp4" poster="./Assets/home1.png" controls></video>
         </div>
       </div>
     </section>
+
+    <section class="services4 py-lg-5 py-3">
+      <div class="container">
+        <div class="count-container row text-center" data-aos="fade-up">
+          <div class="box col-lg-3 col-6">
+            <h3 id="expCount">0</h3>
+            <p>Year of Experience</p>
+          </div>
+          <div class="box col-lg-3 col-6">
+            <h3 id="expertTrainerCount">0</h3>
+            <p>Expert Trainer</p>
+          </div>
+          <div class="box col-lg-3 col-6">
+            <h3 id="trainerCount">0</h3>
+            <p>Number of Trainer</p>
+          </div>
+          <div class="box col-lg-3 col-6">
+            <h3 id="memberCount">0</h3>
+            <p>Number of Members</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
+  <footer></footer>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script> AOS.init(); </script>
+  <script>
+    AOS.init();
+  
+    function animateCount(id, target, duration = 2000) {
+      const el = document.getElementById(id);
+      if (!el) return;
+  
+      const frameRate = 30;
+      const totalFrames = Math.round(duration / (1000 / frameRate));
+      let frame = 0;
+  
+      const counter = setInterval(() => {
+        frame++;
+        const progress = frame / totalFrames;
+        const currentCount = Math.round(target * progress);
+        el.innerText = currentCount.toLocaleString() + "+";
+  
+        if (frame === totalFrames) {
+          clearInterval(counter);
+          el.innerText = target.toLocaleString() + "+";
+        }
+      }, 1000 / frameRate);
+    }
+  
+    // Animate when visible
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCount("expCount", 30);
+          animateCount("expertTrainerCount", 4);
+          animateCount("trainerCount", 6);
+          animateCount("memberCount", 1500);
+          observer.disconnect(); // Only run once
+        }
+      });
+    }, { threshold: 0.3 });
+  
+    window.addEventListener("DOMContentLoaded", () => {
+      const section = document.querySelector(".services4"); // or any wrapper element for counters
+      if (section) {
+        observer.observe(section);
+      }
+    });
+  </script>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
-
 </html>
