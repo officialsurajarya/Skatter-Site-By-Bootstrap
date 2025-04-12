@@ -60,11 +60,11 @@ header {
 /* -----------------Home---------------- */
 
 .carousel-img1 {
-    background: url('./Assets/home1.png');
+    background: url('./Assets/home1.jpg');
 }
 
 .carousel-img2 {
-    background: url('./Assets/home2.png');
+    background: url('./Assets/home2.jpg');
 }
 
 .carousel-item {
