@@ -51,7 +51,7 @@ header {
     background: #222;
     position: fixed;
     top: 0;
-    /* width: 100%; */
+    width: 100%;
     z-index: 1100;
 }
 
@@ -349,42 +349,5 @@ header {
 @media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1170px;
-    }
-}
-
-/* Default padding for larger screens */
-.services, .about, .services2, .services4 {
-    padding: 40px 0;
-}
-
-/* Adjustments for mobile view */
-@media (max-width: 768px) {
-    /* Reduce padding for services and other sections */
-    .services, .about, .services2, .services4 {
-        padding: 20px 0;
-    }
-    
-    /* Adjust margin between sections */
-    .services {
-        margin-top: 50px;  /* Add some top margin */
-    }
-
-    .about {
-        margin-top: 30px;  /* Add margin to space it from previous section */
-    }
-
-    .services2, .services4 {
-        margin-top: 20px;  /* Space between services and next sections */
-    }
-    
-    /* Ensure the text is centered properly */
-    .services h2, .services2 h3 {
-        font-size: 22px;  /* Adjust font size for smaller screens */
-    }
-
-    /* Adjust container width for smaller screens */
-    .container-fluid {
-        padding-left: 15px;
-        padding-right: 15px;
     }
 }
