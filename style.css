@@ -272,8 +272,8 @@ header {
     color: white;
 }
 
-.box:hover {
-    transform: translatey(-4px) ;
+.our-team .box:hover {
+    transform: translatey(-5px) ;
 }
 
 
