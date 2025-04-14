@@ -66,6 +66,10 @@ header {
 }
 
 /* -----------------Home---------------- */
+.home {
+    padding-top: 50px;
+}
+
 .carousel-img1 {
     background: url('./Assets/home1.jpg');
 }
@@ -276,14 +280,92 @@ header {
     transform: translatey(-5px) ;
 }
 
+/* ------------pricing------------------- */
 
+.pricing {
+    background-color: #222;
+    min-height: 100vh;
+}
 
+.pricing .top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
 
+.pricing .top-content h1 {
+    font-family: "Oswald", sans-serif !important;
+    color: #ff8b00;
+}
 
+.pricing .top-content p {
+    color: #999;
+    padding: 5px 10px;
+}
 
+.pricing .box-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
+.pricing .box {
+    width: 350px;
+    padding: 30px 0;
+    /* height: 550px; */
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.pricing ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.pricing li {
+    color: #aaa;
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+.pricing ul i {
+    color: #71bc42;
+    padding-right: 10px;
+}
+
+.pricing h3 {
+    color: #fff;
+    font-size: 35px;
+    font-family: "Oswald", sans-serif !important;
+    padding: 10px 0;
+}
+
+.pricing .price {
+    color: #bbb;
+    padding: 10px 0;
+
+}
+
+.pricing .price span {
+    font-size: 40px;
+    color: #ff8b00;
+}
+
+.pricing .btn {
+    color: white;
+    background-color: #6c757d;
+    margin: 10px 0;
+
+}
+
+.pricing .btn-2nd {
+    background-color: #ff8b00;
+}
 
 
 
@@ -336,7 +418,12 @@ header {
     .services4 h3{
         font-size: 60px;
     }
+
     .our-team .top-content p {
+        max-width: 50%;
+    }
+
+    .pricing .top-content p {
         max-width: 50%;
     }
 
