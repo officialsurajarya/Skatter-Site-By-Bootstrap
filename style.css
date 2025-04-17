@@ -110,6 +110,7 @@ header {
 }
 
 .services h2 {
+    padding-top: 40px;
     color: #ff8b00;
 }
 
@@ -367,13 +368,80 @@ header {
     background-color: #ff8b00;
 }
 
+/* Frequently Ask Questions */
 
+.questions {
+    background-color: #222;
+    min-height: 100vh;
+}
 
+.top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.top-content h1 {
+    font-family: "Oswald", sans-serif !important;
+    color: #ff8b00;
+}
 
+.questions .row h3 {
+    font-family: "Oswald", sans-serif !important;
+    color: #ff8b00;
+    text-align: left;
+}
 
+.questions .row p {
+    color: #939393;
+    text-align: left;
+    padding: 10px 0;
+}
 
+.questions .row {
+    padding-top: 50px;
+    justify-content: center;
+}
 
+.testimonial{
+    background-color: #222;
+    min-height: 100vh;
+}
+
+.testimonial .box {
+    width: 300px;
+}
+
+.testimonial .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial img {
+    width: 80px !important;
+    border-radius: 50%;
+}
+
+.testimonial h4 {
+    font-family: "Oswald", sans-serif !important;
+    color: #ff8b00;
+    margin: 15px;
+}
+
+.testimonial .description {
+    background-color: #333;
+}
+
+.testimonial p {
+    margin: 20px 0;
+    padding: 20px;
+    color: white;
+    font-style: italic;
+    line-height: 35px;
+}
 
 
 @media only screen and (max-width: 575px) {
