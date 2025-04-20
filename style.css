@@ -443,6 +443,92 @@ header {
     line-height: 35px;
 }
 
+.owl-dots .owl-dot.active span {
+    width: 25px !important;
+    background-color: #ff8b00 !important;
+}
+
+/* ---------------Our Blog ------------------*/
+
+.our-blog {
+    background-color: #222;
+    min-height: 100vh;
+}
+
+.our-blog .top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-blog .top-content h1 {
+    font-family: "Oswald", sans-serif !important;
+    color: #ff8b00;
+    padding-bottom: 20px;
+}
+
+.our-blog .top-content p {
+    color: #999;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.our-blog .box-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.our-blog .row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+.our-blog .box h2 {
+    font-family: "Oswald", sans-serif !important;
+    color: #ff8b00;
+    padding-top: 20px;
+}
+
+.our-blog h6 {
+    color: #6c757d;
+    padding-bottom: 15px;
+}
+
+.our-blog p {
+    color: #939393;
+}
+
+.our-blog a {
+    color: #ff8b0088;
+    text-decoration-style: dotted ;
+}
+
+.our-blog a:hover {
+    color: #ff8b00;
+    transition: 0.2s;
+}
+
+.our-blog img {
+    border-radius: 5px;
+}
+
+.our-blog .main-color {
+    color: #ff8b00;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 575px) {
     .carousel-item {
