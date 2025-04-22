@@ -410,7 +410,7 @@ header {
 }
 
 .testimonial .box {
-    width: 300px;
+    margin: 0 15px;
 }
 
 .testimonial .title {
@@ -422,7 +422,7 @@ header {
 
 .testimonial img {
     width: 80px !important;
-    border-radius: 50%;
+    border-radius: 50%; 
 }
 
 .testimonial h4 {
@@ -549,7 +549,6 @@ header {
 .contact .form {
     display: flex;
     flex-direction: column;
-    padding: 15px;
 }
 
 .contact .form .name {
@@ -566,14 +565,37 @@ header {
     outline: none;
     border: none;
     color: white;
+    border-radius: 5px;
 }
 
+.contact .details {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin-left: auto;
+}
 
+.contact .btn {
+    color: white !important;
+    background-color: #ff8b00 !important;
+}
 
+.details h2 {
+    font-family: "Oswald", sans-serif !important;
+    color: #ff8b00;
+}
 
+.details p {
+    color: #939393;
+}
 
-
-
+.details .btn2 {
+    color: white !important;
+    background-color: #ff8b00 !important;
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
 
 
 @media only screen and (max-width: 575px) {
@@ -584,6 +606,10 @@ header {
 
     .services4 h3 {
     font-weight: 600;    
+    }
+
+    .contact .form .name {
+        gap: 0;
     }
 }
 
@@ -639,6 +665,10 @@ header {
         gap: 0px;
     }
 
+    .contact .btn {
+        width: 50%;
+        margin-left: auto !important;
+    }
 }
 
 @media (min-width: 1400px) {
