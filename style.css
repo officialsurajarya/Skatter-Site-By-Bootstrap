@@ -65,7 +65,7 @@ header {
     box-shadow: none;
 }
 
-/* -----------------Home---------------- */
+/* ----------------- Home ---------------- */
 .home {
     padding-top: 50px;
 }
@@ -101,7 +101,7 @@ header {
     font-family: "Oswald", sans-serif !important;
 }
 
-/*----------- services-------------- */
+/*----------- services -------------- */
 
 .services {
     background-color: #222;
@@ -161,7 +161,7 @@ header {
     color: #ff8b00;
 }
 
-/* -------------about------------- */
+/* ------------- about ------------- */
 
 .about {
     background-color: #222;
@@ -197,7 +197,7 @@ header {
     border-radius: 5px;
 }
 
-/* ----------our Team---------- */
+/* ---------- our Team---------- */
 
 .our-team {
     min-height: 100vh;
@@ -281,7 +281,7 @@ header {
     transform: translatey(-5px) ;
 }
 
-/* ------------pricing------------------- */
+/* ------------------- pricing ------------------- */
 
 .pricing {
     background-color: #222;
@@ -368,7 +368,7 @@ header {
     background-color: #ff8b00;
 }
 
-/* Frequently Ask Questions */
+/* ------------------- Frequently Ask Questions ------------------- */
 
 .questions {
     background-color: #222;
@@ -448,7 +448,8 @@ header {
     background-color: #ff8b00 !important;
 }
 
-/* ---------------Our Blog ------------------*/
+/* ------------------- Our-Blog ------------------- */
+
 
 .our-blog {
     background-color: #222;
@@ -520,7 +521,8 @@ header {
     color: #ff8b00;
 }
 
-/*------------------------- Contact */
+/* ------------------- Contact ------------------- */
+
 
 .contact {
     background-color: #222;
@@ -597,6 +599,8 @@ header {
     border-radius: 5px;
 }
 
+
+/* ------------------- Media ------------------- */
 
 @media only screen and (max-width: 575px) {
     .carousel-item {
