@@ -571,9 +571,6 @@ header {
 }
 
 .contact .details {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
     margin-left: auto;
 }
 
@@ -601,6 +598,62 @@ header {
     outline: none;
 }
 
+/* ------------------- Footer ------------------- */
+
+.footer {
+    min-height: 70vh;
+    background-color: #333;
+    color: white;
+}
+
+.footer-heading {
+    color: #ff8b00;
+    font-family: "Oswald", sans-serif !important;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+.footer ul li {
+    margin: 10px 0;
+}
+.footer ul a {
+    color: #ffffff80;
+    text-decoration: none;
+}
+
+.connect input {
+    outline: none;
+    border: 1px solid #ccc;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.connect .btn {
+    border: 1px solid #ff8b00;
+    background-color: #ff8b00;
+    color: white;
+}
+
+.connect .social-icon i {
+    margin-right: 20px;
+    color: #ffffff77;
+    cursor: pointer;
+}
+
+.footer .connect,
+.footer .feature {
+    margin-left: auto;
+}
+
+.footer a{
+    color: #ff8b00;
+    text-decoration: none;
+}
 
 /* ------------------- Media ------------------- */
 
