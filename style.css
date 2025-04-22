@@ -597,6 +597,8 @@ header {
     width: 50%;
     padding: 10px 20px;
     border-radius: 5px;
+    border: none;
+    outline: none;
 }
 
 
